@@ -1,0 +1,41 @@
+.card {
+    padding: 20px;
+    position: relative;
+}
+.card-img {
+    height: 265px;
+}
+.star {
+    height: 15px;
+}
+.star--line {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.star--line h5 {
+    color: #777777;
+    font-weight: 500;
+}
+
+.card div p {
+    color: #444444;
+    font-size: 13px;
+    font-weight: 500;
+}
+span {
+    color: black;
+    font-weight: bold;
+} 
+
+.card-badge {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    background-color: white;
+    padding: 0.5px 4px;
+    border-radius: 2px;
+    font-weight: bold;
+}
